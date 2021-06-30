@@ -14,9 +14,16 @@ void deleteFromMas(int* source,int n, int size) {
 	}
 }
 
+//Задание 2
 
-int main()
-{
+void test(int n, int size) {
+			if (size < n || n<=0 || size <=0) {
+		std::cout << "Неподходящие данные";
+		exit(0);
+	}
+}
+
+int main() {
 	int a,b;
 	std::cout << "Введите размер массива:";
 	std::cin >> a;
